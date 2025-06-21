@@ -1,42 +1,28 @@
-# Simulink Control Project
+   ## 📊 Features
 
-This repository showcases two simulation-based projects developed using MATLAB/Simulink. These projects demonstrate the modeling, analysis, and visualization of dynamic systems in both mechanical and electrical domains.
+- **AM Simulation**:
+  - Standard Amplitude Modulation (AM) using carrier multiplication
+  - Envelope detection for demodulation
+  - Noise injection for robustness testing
 
-## 📁 Project Structure
+- **FM Simulation**:
+  - Frequency deviation based on input signal
+  - Demodulation using differentiator and envelope detector
+  - Bandwidth and SNR analysis
 
-- `Mechanical_Simulation.slx` – Simulink model for mechanical system simulation.
-- `Electrical_Circuit_Simulation.slx` – Simulink model for RLC/RL/LC circuit simulations.
-- `Scope_Results/` – Captured outputs and scope visuals.
-- `README.md` – Project overview and usage instructions.
+- **Advanced Analog Modulation**:
+  - **Double Sideband Suppressed Carrier (DSB-SC)** modulation and coherent demodulation
+  - **Single Sideband (SSB)** modulation using Hilbert transform and frequency shifting
 
-## 🎯 Project Descriptions
+- **Digital Modulation Schemes**:
+  - Implemented schemes such as **BASK**, and **BPSK**
+  - Bitstream generation, modulation, and demodulation using MATLAB scripts
+  - Eye diagrams and constellation plots for performance analysis
+## 🧠 MATLAB Script-Based Implementations
 
-### 1. Mechanical System Simulation
+In addition to Simulink models, this project includes MATLAB `.m` files that demonstrate:
 
-- **Objective**: Model and simulate a mass-spring-damper system.
-- **Focus**: Analyze the effects of external force, damping ratio, and system parameters on dynamic behavior.
-- **Outcomes**:
-  - Time-domain response visualization
-  - Damping effect analysis
-  - System stability insights
+- SSB and DSB-SC modulation/demodulation using signal processing techniques
+- Digital modulation schemes (BASK, BPSK) with visualization and noise analysis
+- Frequency-domain analysis and filtering for signal recovery
 
-### 2. Electrical Circuit Simulation
-
-- **Objective**: Design and simulate RLC, RL, and LC circuits.
-- **Focus**: Study time and frequency responses under various configurations.
-- **Outcomes**:
-  - Step and sinusoidal input response
-  - Resonance behavior
-  - Parameter sensitivity analysis
-
-## 🛠️ Requirements
-
-- MATLAB R2021a or later
-- Simulink toolbox
-- Control System Toolbox (recommended)
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Karem1heikal/Others.git
